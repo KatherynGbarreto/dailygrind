@@ -22,7 +22,11 @@ Rotate by Day of Week: Use HTML/CSS & JavaScript to create a single page
 */
 
 function coffeeTemplate(coffee){
-    return coffee;
+    return <p>
+        <img src="images/pumpkin-spice-latte.jpg" alt="Our Pumpkin Spice Latte tastes great on a Fall Day!" id="coffee" />
+        <strong>Monday's Coffee Special:</strong> Monday's daily coffee special is <strong>Pumpkin Spice Latte</strong>, which makes us wish it was always Fall, as this is one of our top sellers!
+</p> ';'
+
 }
 
 let myDate = new Date();
@@ -69,4 +73,4 @@ switch(today){
 
 console.log(coffee);
 
-document.getElementById("coffee-template").innerHTML = coffeeTemplate("can you see this?");
+document.getElementById("coffee-template").innerHTML = coffeeTemplate(coffee);
