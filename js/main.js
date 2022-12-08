@@ -60,6 +60,32 @@ switch(today){
         };
     break;
 
+    case 3:
+        today="Wednesday";
+        coffee = {
+            color:"black"
+            name : "Cold brew",
+            pic: "cold.brew.jpg"
+            alt:"A picture of a cold brew",
+            day: "Wednesday"
+            desc: 'It's cold I need a cold brew!'
+
+        };
+    break;
+   
+    case 4:
+        today="Thursday";
+        coffee = {
+            color:"black"
+            name : "Cold brew",
+            pic: "cold.brew.jpg"
+            alt:"A picture of a cold brew",
+            day: "Wednesday"
+            desc: 'It's cold I need a cold brew!'
+
+        };
+    break;
+
     
 
 
@@ -75,3 +101,6 @@ switch(today){
 console.log(coffee);
 
 document.getElementById("coffee-template").innerHTML = coffeeTemplate(coffee);
+
+
+document.querySelector("html").style.backgroundColor = coffee.color;
