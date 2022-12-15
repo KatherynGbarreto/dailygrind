@@ -1,4 +1,5 @@
-</header>
+</const newLocal = <p><a href="?day=4">Thursday</a></p>
+header>
 <main>
      <header><h3 class="slogan">You drink our coffee, we make large bucks!</h3></header>
     <p>
@@ -26,7 +27,7 @@
     <p><a href="?day=1">Monday</a></p>
     <p><a href="?day=2">Tuesday</a></p>
     <p><a href="?day=3">Wednesday</a></p>
-    <p><a href="?day=4">Thursday</a></p>
+    {newLocal}
     <p><a href="?day=5">Friday</a></p>
     <p><a href="?day=6">Saturday</a></p>
 
